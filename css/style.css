@@ -1,3 +1,44 @@
+/*Author: Bertrand Domat
+Contact: contact@bd-web.fr
+Project: Eastcoders
+Version: 0.0.3
+*/
+/*General*/
 body{
     width :100%;
+    background-color: #f0f0f0;
+}
+a, a:hover{
+    color: #D90AA0;
+}
+.logo-text{
+    background-color: #34495E;
+    color:#ffffff;
+    font-weight: 500;
+    padding: 0.3rem;
+}
+
+/*Header*/
+.header-nav{
+    background-color: #34495e;
+}
+
+.navbar-collapse{
+    justify-content: end;
+}
+
+/*Content*/
+.intro{
+    text-align: center;
+}
+
+/*Footer*/
+
+footer{
+    background: #34495e;
+    color: #ffffff;
+    text-align: center;
+}
+footer a, footer a:hover{
+    text-decoration: none;
 }
