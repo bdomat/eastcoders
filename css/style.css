@@ -6,16 +6,11 @@ Version: 0.0.3
 /*General*/
 body{
     width :100%;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
+    font-size: 16px;
 }
 a, a:hover{
     color: #D90AA0;
-}
-.logo-text{
-    background-color: #34495E;
-    color:#ffffff;
-    font-weight: 500;
-    padding: 0.3rem;
 }
 
 /*Header*/
@@ -30,6 +25,35 @@ a, a:hover{
 /*Content*/
 .intro{
     text-align: center;
+}
+.reassurance{
+    background-color: #f0f0f0;
+    color: #34495e;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.reassurance p{
+    font-weight: 400;
+}
+
+.reassurance-ico{
+    background-color: #ffffff;
+    color: #34495e;
+    border-radius: 60px;
+    font-size: 2rem;
+    padding: 30px 27px;
+    margin-bottom: 10px;
+    border: 3px solid #D90AA0;
+    box-shadow: 0px 0px 5px #6c6a6a;
+}
+#reassurance-title{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+}
+.illustration{
+    max-width: 100%;
 }
 
 /*Footer*/
