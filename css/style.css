@@ -12,6 +12,12 @@ body{
 a, a:hover{
     color: #D90AA0;
 }
+.divider{
+    background: #D90AA0;
+    width: 150px;
+    height: 4px;
+    margin: 10px 0px 30px 0px;
+}
 
 /*Header*/
 .header-nav{
@@ -23,6 +29,18 @@ a, a:hover{
 }
 
 /*Content*/
+.main-title{
+    background-image: url("../img/bg-main-title.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    color: #ffffff;
+}
+.main-title h1{
+    text-transform: capitalize;
+}
 .intro{
     text-align: center;
 }
