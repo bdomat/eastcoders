@@ -1,10 +1,11 @@
-/*Author: Bertrand Domat
+/****************
+Author: Bertrand Domat
 Contact: contact@bd-web.fr
 Project: Eastcoders
-Version: 0.0.3
-*/
+****************/
 /*General*/
 body{
+    font-family: 'Montserrat', sans-serif;
     width :100%;
     background-color: #ffffff;
     font-size: 16px;
@@ -12,13 +13,33 @@ body{
 a, a:hover{
     color: #D90AA0;
 }
+h1, h2, h3{
+    font-weight: 600;
+}
 .divider{
     background: #D90AA0;
     width: 150px;
     height: 3px;
     margin: 20px 0px 30px 0px;
 }
-
+.cta{
+    border: solid 2px #D90AA0;
+    color: #D90AA0;
+    font-weight: 600;
+    box-shadow: 0px 0px 5px rgba(0 0 0 / 0.3);
+}
+.cta:hover{
+    background-color:#D90AA0;
+    border: solid 2px #fff;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 0px 0px 5px rgba(0 0 0 / 0.3);
+}
+@media screen and (min-width: 992px){
+    .cta{
+        margin-left: 2vh;
+    }
+}
 /*Header*/
 .header-nav{
     background-color: #34495e;
@@ -26,12 +47,6 @@ a, a:hover{
 
 .navbar-collapse{
     justify-content: end;
-}
-
-@media screen and (min-width: 992px){
-    .cta{
-        margin-left: 2vh;
-    }
 }
 
 /*Breadcrumb*/
@@ -103,12 +118,20 @@ p.reassurance-title{
 .illustration{
     max-width: 100%;
 }
+/*Homepage*/
+@media screen and (min-width: 567px){
+    #txt-left-desktop{
+        flex-direction: row-reverse;
+    }
+}
+
 /*Events*/
 .month-list{
     list-style: none;
 }
 .month-list li{
-    line-height: 3vh;
+    line-height: 5vh;
+    font-size: 3vh;
 }
 
 .event-by-month{
@@ -149,13 +172,22 @@ p.reassurance-title{
 
 }
 /*Contact*/
+.contact-details ul{
+    padding: 0px;
+}
 .contact-details li{
     list-style: none;
+}
+.social-icons{
+    font-size: 1.5em;
 }
 .social-icons li{
     list-style: none;
     display: inline-flex;
     padding: 1vh;
+}
+#footer-icons{
+    background-color: #f0f0f0;
 }
 /*Footer*/
 footer{
