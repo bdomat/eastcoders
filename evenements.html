@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Eastcoders' - L'association fictive des codeurs de l'est !</title>
-        <meta name="description" content="Vous êtes un codeur de l'Est ? Rejoignez notre association qui vise à promouvoir les bienfaits du développement web pour la santé !">
+        <meta name="description" content="Défis codes, échanges et entraide,... Rejoignez-nous aux événements Eastcoders' !">
         <!--scripts-->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="library/bootstrap-4.4.1-dist/js/bootstrap.bundle.js"></script>
@@ -13,13 +13,13 @@
         <!--stylesheets-->
         <link href="library/bootstrap-4.4.1-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
         <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
-        <!--icon-->
+        <!--website icons-->
         <link rel="icon" type="image/vnd.microsoft.icon" href="img/favicon.ico">
         <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     </head>
     <body>
         <header>
-            <!--logo + navigation menu-->
+            <!--start logo + navigation menu-->
             <nav class="navbar navbar-expand-lg navbar-dark header-nav">
                 <a class="navbar-brand" href="index.html"><img src="img/logo-eastcoders.png" alt="Eastcoders"/></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,46 +27,66 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="index.html">Accueil<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="a-propos.html">L'association</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="evenements.html">Nos événements</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn btn-light" href="contact.html">Rejoignez-nous !</a>
+                            <a class="btn btn-light cta" href="contact.html"><i class="fa-solid fa-arrow-right"></i> Rejoignez-nous !</a>
                         </li>
                     </ul>
                 </div>
             </nav>
+            <!--end logo + navigation menu-->
         </header>
+    <!--start main content-->
     <main>
         <section class="main-title">
             <div class="container intro py-5">
                 <h1>Nos événements</h1>
-                <!--breadcrumb start-->
+                <!--start breadcrumb-->
                 <nav aria-label="Breadcrumb" class="breadcrumb-nav py-3">
                     <ul>
                       <li><a href="index.html">Accueil</a></li>
                       <li><span aria-current="page">Nos événements</span></li>
                     </ul>
                   </nav>
-                  <!--breadcrumb end-->
+                  <!--end breadcrumb-->
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, laudantium similique! Modi ipsum repellendus explicabo labore, tempora praesentium qui recusandae nemo, laudantium et facilis molestiae! Officia, reprehenderit. Optio, error harum.</p>
             </div>
         </section>
+        <!--start 2 columns-->
         <div class="container py-5">
-            <div class="row">
-                <!--events start-->
+            <div class="row diary">
+                <!--start period selection-->
+                <div class="col-12 col-md-3 text-center">
+                    <section id="sidebar">
+                        <h2 class="py-4">Période</h2>
+                        <aside>
+                            <ul class="month-list">
+                                <li><a href="#january">Janvier 2023</a></li>
+                                <li><a href="#february">Février 2023</a></li>
+                                <li><a href="#march">Mars 2023</a></li>
+                                <li><a href="#april">Avril 2023</a></li>
+                                <li><a href="#may">Mai 2023</a></li>
+                                <li><a href="#june">Juin 2023</a></li>
+                            </ul>
+                        </aside>
+                    </section>
+                </div>
+                <!--end period selection-->
+                <!--start events-->
                 <div class="col-12 col-md-9">
                     <section id="content">
-                        <h2 class="py-4">Agenda</h2>
+                        <h2 class="py-4 text-center">Agenda</h2>
                         <article class="event-by-month" id="january">
                             <h3>Janvier 2023</h3>
                             <div class="divider"></div>
@@ -225,31 +245,14 @@
                         </article>
                     </section>
                 </div>
-                <!--events end-->
-                <div class="col-12 col-md-3">
-                    <section id="sidebar">
-                        <h2 class="py-4">Période</h2>
-                        <aside>
-                            <ul class="month-list">
-                                <li><a href="#january">Janvier 2023</a></li>
-                                <li><a href="#february">Février 2023</a></li>
-                                <li><a href="#march">Mars 2023</a></li>
-                                <li><a href="#april">Avril 2023</a></li>
-                                <li><a href="#may">Mai 2023</a></li>
-                                <li><a href="#june">Juin 2023</a></li>
-                            </ul>
-                        </aside>
-                    </section>
-                </div>
+                <!--end events-->
             </div>
         </div>
     </main>
-             <!--end main section-->
+    <!--end main content-->
          <!--footer-->
          <footer>
             <p class="py-3">© Copyright - Site réalisé par <a href="https://www.bd-web.fr" target="_blank">BD WEB</a></p>
          </footer>
 </html>
 </body>
-
-</html>

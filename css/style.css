@@ -27,6 +27,13 @@ a, a:hover{
 .navbar-collapse{
     justify-content: end;
 }
+
+@media screen and (min-width: 992px){
+    .cta{
+        margin-left: 2vh;
+    }
+}
+
 /*Breadcrumb*/
 .breadcrumb-nav {
     padding: 0 .5rem;
@@ -96,13 +103,14 @@ p.reassurance-title{
 .illustration{
     max-width: 100%;
 }
+/*Events*/
 .month-list{
     list-style: none;
 }
 .month-list li{
     line-height: 3vh;
 }
-/*events*/
+
 .event-by-month{
     background-color: #f4f4f4;
     padding: 3vh;
@@ -128,8 +136,22 @@ p.reassurance-title{
     right: 0px;
     width: 70px;
 }
-/*Contact*/
+#sidebar ul{
+    padding: 0px;
+}
+@media screen and (min-width:768px){
+    .diary{
+        flex-direction: row-reverse;
+    }
+    #sidebar ul{
+        text-align: left;
+    }
 
+}
+/*Contact*/
+.contact-details li{
+    list-style: none;
+}
 .social-icons li{
     list-style: none;
     display: inline-flex;
