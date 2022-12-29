@@ -120,7 +120,7 @@ p.reassurance-title{
 }
 /*Homepage*/
 @media screen and (min-width: 567px){
-    #txt-left-desktop{
+    .txt-left-desktop{
         flex-direction: row-reverse;
     }
 }
@@ -143,9 +143,6 @@ p.reassurance-title{
 .event-details{
     position: relative;
 }
-.event-details > h4{
-    text-transform: ;
-}
 .event-details > p > span{
     display: block;
 }
@@ -159,15 +156,22 @@ p.reassurance-title{
     right: 0px;
     width: 70px;
 }
-#sidebar ul{
+.month-list{
     padding: 0px;
+}
+.sidebar{
+    height: auto;
 }
 @media screen and (min-width:768px){
     .diary{
         flex-direction: row-reverse;
     }
-    #sidebar ul{
+    .month-list{
         text-align: left;
+    }
+    .sidebar > section{
+        position: sticky;
+        top: 0px;
     }
 
 }
